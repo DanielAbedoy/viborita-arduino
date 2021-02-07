@@ -1,0 +1,7 @@
+#define BOTON_ARRIBA 4
+#define BOTON_ABAJO 5
+#define BOTON_DERECHA 6
+#define BOTON_IZQUIERDA 7
+
+#define PALANCA_X A2
+#define PALANCA_Y A3
