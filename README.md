@@ -20,66 +20,67 @@ class="img-logo"
 <h1 align="center">
 Proyecto...:
 </h1>
-#Viborita Java/Arduino
 
-##Descripción
+# Viborita Java/Arduino
+
+## Descripción
 > La viborita es un videojuego clásico muy popular en la decada de los 70´s. En esta ocación se me ocurrio la idea no solo de programar el juego, si no tambien hacer algo diferente con los conocimientos que he adquirido al paso de mi vida, así que decidí implementar hardware para manipular el juego y que mejor que hacerlo con la herramienta más popular hoy en día para manipular hardware que es "Arduino"
 
-##Materiales y herramientas necesarias
-> - :fa-link: [Java NetBeans v8.2 ](https://netbeans.org/downloads/8.0.1/zip.html?pagelang=es "Java NetBeans v8.2 ")
-- :fa-link: [Arduino IDE](https://www.arduino.cc/en/software "Arduino IDE")
-- :fa-link: [Arduino UNO](https://store.arduino.cc/usa/arduino-uno-rev3 "Arduino UNO")
-- :fa-link: [Push buttons](https://uelectronics.com/etiqueta-producto/boton-4-pines/ "Push buttons")
-- :fa-link: [Modulo JoyStick ](https://uelectronics.com/producto/modulo-ky-023-sensor-joystick/ "Modulo JoyStick ")
-- :fa-link: [Cables jumpers](https://uelectronics.com/producto/65-cables-proto-jumpers-jumper-macho/ "Cables jumpers")
-- :fa-link: [Protoboard ](https://uelectronics.com/producto/protoboard-deslizable-830-pts/ "Protoboard ")
+## Materiales y herramientas necesarias
+> - [Java NetBeans v8.2 ](https://netbeans.org/downloads/8.0.1/zip.html?pagelang=es "Java NetBeans v8.2 ")
+> - [Arduino IDE](https://www.arduino.cc/en/software "Arduino IDE")
+> - [Arduino UNO](https://store.arduino.cc/usa/arduino-uno-rev3 "Arduino UNO")
+> - [Push buttons](https://uelectronics.com/etiqueta-producto/boton-4-pines/ "Push buttons")
+> - [Modulo JoyStick ](https://uelectronics.com/producto/modulo-ky-023-sensor-joystick/ "Modulo JoyStick ")
+> - [Cables jumpers](https://uelectronics.com/producto/65-cables-proto-jumpers-jumper-macho/ "Cables jumpers")
+> - [Protoboard ](https://uelectronics.com/producto/protoboard-deslizable-830-pts/ "Protoboard ")
 
-##Contenido
-> - Proyecto Java (java_project)
--- src 
------- clases
-------  views
------- images
--- drivers
------- [Arduino jar PanamaHitek](http://panamahitek.com/tag/libreria-arduino-para-java/ "Arduino jar PanamaHitek")
-- Proyecto arduino (arduino_example)
------ Pines.h
------ Main
-- Diagramas
--- proyecto-fritzing
--- conexión PNG
+## Contenido
+> + Proyecto Java (java_project)
+>   + src 
+>     + clases
+>     +  views
+>     + images
+>   + drivers
+>     + [Arduino jar PanamaHitek](http://panamahitek.com/tag/libreria-arduino-para-java/ "Arduino jar PanamaHitek")
+> + Proyecto arduino (arduino_example)
+>   + Pines.h
+>   + Main
+> + Diagramas
+>   + proyecto-fritzing
+>   + conexión PNG
 
 
-##Instrucciones
+## Instrucciones
 > Proyecto java
-1. Abrir el proyecto en NetBeans
-2. Si aparece un error de la libreria, volver a importar(se encuentra en al carpeta del proyecto dentro del directorio "drivers")
+> 1. Abrir el proyecto en NetBeans
+> 2. Si aparece un error de la libreria, volver a importar(se encuentra en al carpeta del proyecto dentro del directorio "drivers")
 
->Proyecto   arduino
-1. Conectar el Arduino Uno
-2. Cargar el proyecto
-3. Conectar los componentes y abrir la serial para comprobar su funcionamiento ( ver lo diagrama para su correcta conexión)
+> Proyecto   arduino
+> 1. Conectar el Arduino Uno
+> 2. Cargar el proyecto
+> 3. Conectar los componentes y abrir la serial para comprobar su funcionamiento ( ver lo diagrama para su correcta conexión)
 
 > Para jugar
-1. Conectar el arduino con todos los componentes conectados a él
-2. Ejecutar el proyecto en NetBeans
-3. Seleccionar el modo Arduino y elegir el puerto COM en el cual se encuetra el Arduino con el programa cargado
-4. Disfrutar y jugar
+> 1. Conectar el arduino con todos los componentes conectados a él
+> 2. Ejecutar el proyecto en NetBeans
+> 3. Seleccionar el modo Arduino y elegir el puerto COM en el cual se encuetra el Arduino con el programa cargado
+> 4. Disfrutar y jugar
 
-##Ejecutar
+## Ejecutar
 > Java 
-- Para jugar "Run"
-- Para crear el proyecto a producción "Buld Project"
+> - Para jugar "Run"
+> - Para crear el proyecto a producción "Buld Project"
 
 > Arduino 
-- Cargar el projecto a cuantos arduinos quieran
-- SE ES POSIBLE UTILIZAR CUALQUIER OTRO ARDUINO (CHECAR Y COMPARAR PINES DE CONEXIÓN)
+> - Cargar el projecto a cuantos arduinos quieran
+> - SE ES POSIBLE UTILIZAR CUALQUIER OTRO ARDUINO (CHECAR Y COMPARAR PINES DE CONEXIÓN)
 
-##Autores
+## Autores
 > José Daniel Abedoy
 
-##Licencia
+## Licencia
 > Este proyecto es libre de derechos de autor, se es posible hacer cambios para el gusto personal, pero agradeceria que se me hiciera mención de participación.
 
-##Etiquetas
-{'Java'} {'Arduino'} {'Viborita'} {'Game 2D'} {'Hardware'} {'PanamaHitek'} {'Free Copyright'}
+## Etiquetas
+> {'Java'} {'Arduino'} {'Viborita'} {'Game 2D'} {'Hardware'} {'PanamaHitek'} {'Free Copyright'}
